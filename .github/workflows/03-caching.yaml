@@ -48,3 +48,8 @@ jobs:
       # 4) Run tests
       - name: Run Playwright tests
         run: npx playwright test
+
+      # ) Test Check run time using cache
+      - name: Check run time using cache
+        run: |
+          echo "Check run time using cache"

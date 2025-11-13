@@ -1,10 +1,10 @@
-name: Basic-Workflow
+name: Basic Workflow
 
 on: 
   workflow_dispatch:
  
 jobs:
-  basic-workflow:
+  basic_workflow:
     runs-on: ubuntu-latest
     steps:
       - run: |

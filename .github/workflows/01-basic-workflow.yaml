@@ -5,7 +5,7 @@ on:
  
 jobs:
   basic_workflow:
-    name: test andre
+
     runs-on: ubuntu-latest
     steps:
       - run: |
